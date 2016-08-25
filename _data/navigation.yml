@@ -1,0 +1,73 @@
+# main links links
+main:
+  - title: "Catalog Architecture"
+    url: /pages/architecture/
+
+  - title: "Harvest Registration"
+    url: /pages/registration/
+
+  - title: "Catalog Capabilities"
+    url: /pages/capabilities/
+
+
+
+
+
+# site_nav links
+site_nav:
+  - title: Catalog Architecture
+    children:
+      - title: "Overall"
+        url: /pages/architecture/
+      - title: "CKAN"
+        url: /pages/architecture/ckan/
+      - title: "Service Monitor"
+        url: /docs/architecture/service-monitor/
+      - title: "Other"
+        url: /pages/architecture/ckan/
+
+  - title: Harvest Registration
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "ISO 19115 Validation"
+        url: /docs/validation/
+      - title: "Harvesting Workflow"
+        url: /docs/workflow/
+
+
+  - title: Catalog Capabilities
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
