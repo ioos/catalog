@@ -3,11 +3,14 @@ main:
   - title: "Catalog Architecture"
     url: /pages/architecture/
 
-  - title: "Harvest Registration"
-    url: /pages/registration/
+  - title: "Harvest Registry"
+    url: /pages/registry/
 
   - title: "Catalog Capabilities"
-    url: /pages/capabilities/
+    url: /pages/catalog/
+
+  - title: "System Monitor"
+    url: /pages/monitor/
 
 
 
@@ -21,32 +24,49 @@ site_nav:
         url: /pages/architecture/
       - title: "CKAN"
         url: /pages/architecture/ckan/
+      - title: "Harvest Registry"
+        url: /pages/architecture/ckan/
       - title: "Service Monitor"
         url: /docs/architecture/service-monitor/
-      - title: "Other"
-        url: /pages/architecture/ckan/
 
-  - title: Harvest Registration
+
+  - title: Harvest Registry
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "ISO 19115 Validation"
-        url: /docs/validation/
+      - title: "Overview"
+        url: /pages/registry/
+      - title: "Registering Datasets in Catalog"
+        url: /pages/registry/registration/
+      - title: "WAF Best Practices"
+        url: /pages/registry/waf_creation/
       - title: "Harvesting Workflow"
-        url: /docs/workflow/
+        url: /pages/registry/workflow/
+      - title: "ISO 19115 Validation"
+        url: /pages/registry/iso_validation/
 
 
   - title: Catalog Capabilities
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
+      - title: "Overview"
+        url: /pages/catalog/
+      - title: "CKAN User Interface"
+        url: /pages/catalog/ckan-ui/
+      - title: "CS-W Service (pycsw)"
+        url: /pages/catalog/pycsw/
 
+  - title: System Monitor
+    children:
+      - title: "Overview"
+        url: /pages/monitor/
+      - title: "Web Services/Querying Monitor"
+        url: /pages/monitor/services/
 
-# documentation links
+  - title: Documentation HOWTO
+    children:
+      - title: "Setting up Jekyll"
+        url: /pages/howto/jekyll/
+
+# documentation links - placeholder for additional component-specific side nav
+# if needed (from original Jekyll template)
 docs:
   - title: Getting Started
     children:
