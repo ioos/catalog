@@ -22,7 +22,7 @@
           animation-delay: 0.45s;
   /*background-color: $lighter-gray;*/
   border-top: 1px solid $light-gray;
-  background-image: url("/images/bg_footer.png");
+  background-image: url( "../../images/bg_footer.png");
 
   footer {
     @include container;
