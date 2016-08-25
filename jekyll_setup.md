@@ -1,6 +1,4 @@
 ## Jekyll Setup ##
-This is just a placeholder page with Markdown examples describing the Jekyll/
-Minimal Mistakes theme setup...
 
 ### Requirements: ###
 - Ruby: [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/), Windows users:
@@ -8,7 +6,7 @@ Minimal Mistakes theme setup...
 - Jekyll: [https://jekyllrb.com/](https://jekyllrb.com/)
 - Minimal Mistakes Jekyll theme: [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
 
-*\*Minimal Mistakes theme was the base theme used for the site*
+*Minimal Mistakes theme was the base theme used for the site*
 
 
 ### Installation: ###
