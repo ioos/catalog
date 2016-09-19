@@ -1,0 +1,20 @@
+Provider,WAF URL
+AOOS,http://thredds.axiomalaska.com/iso/aoos/
+CariCOOS,http://blue2.caricoos.org/capella/WAF/iso/
+CeNCOOS,http://thredds.axiomdatascience.com/iso/cencoos/
+GCOOS,http://barataria.tamu.edu/iso/
+Glider DAC,https://data.ioos.us/gliders/metadata/
+MARACOOS,http://tds.maracoos.org/iso/
+MARACOOS,http://sos.maracoos.org/maracoos-iso/
+NANOOS,http://data.nanoos.org/metadata/coastwatcherded/osuclm/
+NERACOOS,http://www.neracoos.org/WAF/BIO/iso/
+NERACOOS,http://www.neracoos.org/WAF/UMaine/iso/
+PacIOOS,http://www.pacioos.hawaii.edu/metadata/iso/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/ncsu_meas/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/uf/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/usc/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/usf/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/usc/hfradar/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/usc/platforms/
+SECOORA,http://neptune.baruch.sc.edu/xenia/waf/ncsu_cfdl/
+Unidata ,http://thredds.axiomalaska.com/iso/unidata/
