@@ -15,4 +15,4 @@ Once logged on to the Registry, modify or add any additional WAFs you'd like to 
 You can also manually trigger a re-harvest of an existing WAF from the Registry.  Just click on the 'Reharvest' button from the Data Source detail page.
 
 ### Current List of WAFs ###
-A list of the WAFs and associated organizations currently in the Catalog can be found: [here](https://github.com/mwengren/catalog/blob/gh-pages/doc/ioos_registry_wafs.csv)
+A list of the WAFs and associated organizations currently in the Catalog can be found: [here](https://github.com/ioos/catalog/blob/gh-pages/doc/ioos_registry_wafs.csv)
