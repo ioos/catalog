@@ -15,7 +15,7 @@
 - Install Jekyll in your Ruby environment:
 
 ```
-$ gem install jekyll
+gem install jekyll
 ```
 
 - The Minimal Mistakes theme docs recommend installing Bundler for dependency
@@ -23,29 +23,30 @@ management to run Jekyll.  See the [install docs](https://mmistakes.github.io/mi
 for more info.
 
 ```
-$ gem install bundler
+gem install bundler
 ```
 
 - Checkout the GitHub repo to get the code:
 
 ```
-$ cd /my/sourcecode/dir
-$ git clone https://github.com/ioos/catalog.git
-$ cd catalog
+cd /my/sourcecode/dir
+git clone https://github.com/ioos/catalog.git
+cd catalog
 ```
 
 - Install dependencies via Bundler:
 
 ```
-$ bundle install
+bundle install
 ```
 
 
 - From here, you should be able to run Jekyll to preview the site as follows:
 
 ```
-$ bundle exec jekyll serve --config _config.yml,_config_dev.yml
-$ bundle exec jekyll serve --config _config.yml,_config_dev.yml --watch --verbose
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+bundle exec jekyll serve --config _config.yml,_config_dev.yml --watch --verbose
+bundle exec jekyll serve --config _config.yml,_config_dev.yml --watch --verbose --incremental
 ```
 
 Note: the --config flag allows local overrides of the site.url for development/testing

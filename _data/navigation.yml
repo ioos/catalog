@@ -22,10 +22,10 @@ site_nav:
     children:
       - title: "Overall"
         url: /pages/architecture/
-      - title: "Catalog (CKAN)"
-        url: /pages/architecture/ckan/
       - title: "Harvest Registry"
         url: /pages/architecture/registry/
+      - title: "Data Catalog (CKAN)"
+        url: /pages/architecture/ckan/
       - title: "Service Monitor"
         url: /docs/architecture/service-monitor/
 

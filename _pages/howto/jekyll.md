@@ -54,6 +54,7 @@ bundle install
 ```
 bundle exec jekyll serve --config _config.yml,_config_dev.yml
 bundle exec jekyll serve --config _config.yml,_config_dev.yml --watch --verbose
+bundle exec jekyll serve --config _config.yml,_config_dev.yml --watch --verbose --incremental
 ```
 
 Note: the --config flag allows local overrides of the site.url for development/testing
