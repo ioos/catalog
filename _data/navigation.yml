@@ -24,10 +24,10 @@ site_nav:
         url: /pages/architecture/
       - title: "Harvest Registry"
         url: /pages/architecture/registry/
-      - title: "Data Catalog (CKAN)"
-        url: /pages/architecture/ckan/
+      - title: "Data Catalog"
+        url: /pages/architecture/data_catalog/
       - title: "Service Monitor"
-        url: /docs/architecture/service-monitor/
+        url: /pages/architecture/monitor/
 
 
   - title: Harvest Registry
@@ -53,7 +53,7 @@ site_nav:
       - title: "CS-W Service (pycsw)"
         url: /pages/catalog/pycsw/
 
-  - title: System Monitor
+  - title: Service Monitor
     children:
       - title: "Overview"
         url: /pages/monitor/
