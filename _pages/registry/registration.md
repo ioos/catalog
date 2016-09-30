@@ -15,4 +15,4 @@ From the Registry interface, you can modify existing or add any new WAFs you wan
 You can also manually trigger a re-harvest of an existing WAF directly from the Registry, if there have been changes made to the metadata in your WAF.  Just click on the 'Reharvest' button from the Data Source detail page.  By default, all WAFs are harvested on a daily basis by the Catalog.
 
 ### Current List of WAFs ###
-A list of the WAFs and associated organizations currently in the Catalog can be found: [here](https://github.com/ioos/catalog/blob/master/doc/ioos_registry_wafs.csv)
+A list of the WAFs and associated organizations currently in the Catalog can be found: [here](https://registry.ioos.us/about)

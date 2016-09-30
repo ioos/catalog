@@ -6,7 +6,7 @@ permalink: /pages/howto/jekyll/
 ---
 ## Jekyll Setup ##
 This is just a placeholder page with Markdown examples describing the Jekyll/
-Minimal Mistakes theme setup...
+Minimal Mistakes theme setup used in this site.
 
 ### Requirements: ###
 - Ruby: [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/), Windows users:
