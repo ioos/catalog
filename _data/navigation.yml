@@ -6,7 +6,7 @@ main:
   - title: "Harvest Registry"
     url: /pages/registry/
 
-  - title: "Catalog Capabilities"
+  - title: "Data Catalog (CKAN)"
     url: /pages/catalog/
 
   - title: "System Monitor"
@@ -40,27 +40,27 @@ site_nav:
         url: /pages/registry/waf_creation/
       - title: "THREDDS WAF Scripting"
         url: /pages/registry/thredds_waf_scripting/
-      - title: "Harvesting Workflow"
-        url: /pages/registry/harvesting_workflow/
+#      - title: "Harvesting Workflow"
+#        url: /pages/registry/harvesting_workflow/
 #      - title: "ISO 19115 Validation"
 #        url: /pages/registry/iso_19115_validation/
 
 
-  - title: Catalog Capabilities
+  - title: Data Catalog (CKAN)
     children:
       - title: "Overview"
         url: /pages/catalog/
-      - title: "CKAN User Interface"
-        url: /pages/catalog/ckan-ui/
-      - title: "CS-W Service (pycsw)"
-        url: /pages/catalog/pycsw/
+#      - title: "CKAN User Interface"
+#        url: /pages/catalog/ckan-ui/
+#      - title: "CS-W Service (pycsw)"
+#        url: /pages/catalog/pycsw/
 
   - title: Service Monitor
     children:
       - title: "Overview"
         url: /pages/monitor/
-      - title: "Web Services/Querying Monitor"
-        url: /pages/monitor/services/
+#      - title: "Web Services/Querying Monitor"
+#        url: /pages/monitor/services/
 
   - title: Documentation HOWTO
     children:
