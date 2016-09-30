@@ -38,10 +38,12 @@ site_nav:
         url: /pages/registry/registration/
       - title: "WAF Best Practices"
         url: /pages/registry/waf_creation/
+      - title: "THREDDS WAF Scripting"
+        url: /pages/registry/thredds_waf_scripting/
       - title: "Harvesting Workflow"
-        url: /pages/registry/workflow/
-      - title: "ISO 19115 Validation"
-        url: /pages/registry/iso_validation/
+        url: /pages/registry/harvesting_workflow/
+#      - title: "ISO 19115 Validation"
+#        url: /pages/registry/iso_19115_validation/
 
 
   - title: Catalog Capabilities
