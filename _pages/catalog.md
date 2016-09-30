@@ -1,8 +1,9 @@
 ---
-title: "IOOS Catalog Overview"
+title: "IOOS Data Catalog Overview"
 layout: single
-excerpt: "IOOS Catalog Overview"
+excerpt: "IOOS Data Catalog Overview"
 sitemap: false
 permalink: /pages/catalog/
 ---
 ## IOOS Catalog Overview ##
+Coming soon...
