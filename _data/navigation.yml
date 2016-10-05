@@ -50,8 +50,10 @@ site_nav:
     children:
       - title: "Overview"
         url: /pages/catalog/
-#      - title: "CKAN User Interface"
-#        url: /pages/catalog/ckan-ui/
+      - title: "CKAN User Interface"
+        url: /pages/catalog/ckan-ui/
+      - title: "CKAN Metadata Mapping"
+        url: /pages/catalog/mapping/
 #      - title: "CS-W Service (pycsw)"
 #        url: /pages/catalog/pycsw/
 

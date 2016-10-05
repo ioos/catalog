@@ -55,8 +55,15 @@
     border-bottom: 1px solid $border-color;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+  }
+
   p, li, dl {
-    font-size: 1em;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto-Light", sans-serif
   }
 
   /* paragraph indents */
