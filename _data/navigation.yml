@@ -40,6 +40,8 @@ site_nav:
         url: /pages/registry/waf_creation/
       - title: "THREDDS WAF Scripting"
         url: /pages/registry/thredds_waf_scripting/
+      - title: "User Accounts"
+        url: /pages/registry/users/
 #      - title: "Harvesting Workflow"
 #        url: /pages/registry/harvesting_workflow/
 #      - title: "ISO 19115 Validation"
