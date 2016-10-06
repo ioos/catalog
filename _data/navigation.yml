@@ -34,14 +34,16 @@ site_nav:
     children:
       - title: "Overview"
         url: /pages/registry/
+      - title: "User Accounts"
+        url: /pages/registry/users/
+      - title: "Managing Harvests"
+        url: /pages/registry/harvests/
       - title: "Registering Datasets in Catalog"
         url: /pages/registry/registration/
       - title: "WAF Best Practices"
         url: /pages/registry/waf_creation/
       - title: "THREDDS WAF Scripting"
         url: /pages/registry/thredds_waf_scripting/
-      - title: "User Accounts"
-        url: /pages/registry/users/
 #      - title: "Harvesting Workflow"
 #        url: /pages/registry/harvesting_workflow/
 #      - title: "ISO 19115 Validation"
