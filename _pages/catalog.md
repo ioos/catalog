@@ -7,6 +7,8 @@ permalink: /pages/catalog/
 ---
 ## IOOS Catalog Overview ##
 
+<img class="pull-right" src="https://avatars3.githubusercontent.com/u/1630326?v=3&s=400" alt="CKAN Logo"/>
+
 The IOOS Catalog leverages a powerful piece of software called CKAN. CKAN is a
 powerful data management system that makes data accessible – by providing tools
 to streamline publishing, sharing, finding and using data. CKAN is aimed at

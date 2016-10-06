@@ -51,10 +51,11 @@ Relevance is determined by how closely the query matches key metadata like the
 *title* and the *abstract*. If relevance being equal, the date-time of the
 dataset determines the next precedence.
 
+
+<img class="pull-right" alt="Map Filter" src="/catalog/images/ckan-ui/map-search.png" />
+
 Search queries for datasets can be filtered to a geographic region using the
 map interface on the left.
-
-![Map Filter](/catalog/images/ckan-ui/map-search.png)
 
 If you select the pencil icon in the upper right section of the map filter, the
 map will expand and the user can draw a box. This box will be used to filter
