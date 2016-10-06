@@ -112,6 +112,16 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* Allow for content to be pulled-right using a float */
+  .pull-right {
+      float: right;
+  }
+
+  /* Limit the size of images pulled right so they don't distort the page */
+  img.pull-right {
+      max-width: 30%;
+  }
 }
 
 .page__hero {
