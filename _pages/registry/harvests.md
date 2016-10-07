@@ -92,3 +92,20 @@ harvest.
 If you click the Bad Records section along the header, you'll the records page
 will automatically be sorted by the number of errors per record.
 
+
+The record page is organized similar to the harvests dashboard. Along the
+dashboard heading there are three sections. The first section displays the
+total number of collected from this data source. The second section displays
+the total number of services offered by the records from this source. The last
+column displays the total number of errors, whether it's a parsing error, or
+validation error.
+
+The table below the heading shows the information relevant to the record to
+help users identify the individual records. There are three links associated
+with each record as well. The link under the XML Source column is the URL to
+the original metadata document hosted by the WAF. The XML Published link points
+to the URL of the document in the central WAF. The link under the CKAN column
+is a URL to a search for the document under CKAN. These links are aimed to help
+users identify issues and verify that the records are being shared correctly.
+
+![Records Table](/catalog/images/registry/records-table.png)
