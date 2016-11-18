@@ -52,8 +52,8 @@ See the [examples](#example-scripts) section below for more information.
 At present, Siphon has not been leveraged for the WAF generation process for the IOOS Catalog, however it may be a suitable alternative for this purpose.  Any data providers that have
 used Siphon for this purpose are asked to submit their scripts via [pull request to the Catalog](https://github.com/ioos/catalog) repo to share.  
 
-### Example Scripts ###
-For more information and examples on scripting WAF generation from THREDDS see the information in the [THREDDS WAF Scripting]({{ site.url }}{{ site.baseurl }}/pages/registry/thredds_waf_scripting)
+### Example Scripts for THREDDS and ERDDAP ###
+For more information and examples on scripting WAF generation from THREDDS, and also ERDDAP, see the information in the [WAF Scripting]({{ site.url }}{{ site.baseurl }}/pages/registry/waf_scripting)
 page.  
 
 ## Hosting a WAF on a webserver. ##

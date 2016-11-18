@@ -16,7 +16,7 @@ source which includes:
   are hosted
 - Harvest Type: The content type of the URL:
   - WAF: Web acessible Folder
-  - CSW: Catalog Service for the Web _(As of this writing, CSW is still under development)_
+  - CSW: Catalog Service for the Web
 - Publish Source: Should the contents be copied into CKAN?
 - Organization: Who does the data belong to?
 
@@ -33,6 +33,10 @@ under the URL column. There's a link to the CKAN page listing the harvest
 contents that have been successfully registered in CKAN under the CKAN Harvest
 URL column.
 
+### Current List of WAFs ###
+A list of the WAFs and associated organizations currently in the Catalog can
+be found [here](https://registry.ioos.us/about).
+
 
 ## Adding a new harvest ##
 
@@ -43,12 +47,12 @@ Clicking this button will open a form along the right side of the page.
 
 If the harvest is set to publish (indicated by the "Publish this source?" check
 box), once the harvest is submitted a job will be submitted. A worker will
-download all the contents it can find in the URL to a folder in 
+download all the contents it can find in the URL to a folder in
 [the central waf](https://registry.ioos.us/waf/) under the organization's
-folder. 
+folder.
 
 If a harvest is set to publish, once per day it will be downloaded into the
-[the central waf](https://registry.ioos.us/waf/). 
+[the central waf](https://registry.ioos.us/waf/).
 
 ### Notes about Dataset Age
 
@@ -58,14 +62,14 @@ what data providers are hosting and what's available through the IOOS Catalog.
 
 ## XMl Validation ##
 
-Every time a harvester downloads the contents of a source into 
+Every time a harvester downloads the contents of a source into
 [the central waf](https://registry.ioos.us/waf/), the contents of each XML file
 is checked. The XML contents are checked using the [XML Schema Definition for
 ISO-19139](https://ngdc.noaa.gov/metadata/published/xsd/) created by NGDC. Any
 validation errors captured by the schema comparison are listed and documented
 in the [records section](#records-overview).
 
-CKAN's geospatial engine 
+CKAN's geospatial engine
 [doesn't support points very well](http://docs.ckan.org/projects/ckanext-spatial/en/latest/spatial-search.html#choosing-a-backend-for-the-spatial-search).
 To offset this limitation, we make a small transformation on the geometry of
 datasets that are defined as a point. We translate that point into a small
