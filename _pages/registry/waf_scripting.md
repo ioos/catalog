@@ -34,18 +34,20 @@ parses the catalog directly using the Python 'requests' library.  Details below:
 
 ## ERDDAP Example Scripts ##
 ERDDAP includes a native WAF capability.  Appending the path /metadata/iso19115/xml/ to an
-ERDDAP installation will display the WAF.  Presently, this type of WAF is not able to be
-harvested into the Registry unfortunately.  This may change in the future, but at the
-time of writing an ERDDAP provider must create a standard web server-hosted WAF for the
-Registry to harvest.
+ERDDAP installation will display the WAF.  The Harvest Registry has been extended to be able to
+harvest directly from an ERDDAP WAF.  In the 'New Harvest' dialog box select 'ERDDAP WAF' as the
+Harvest Type to properly configure the harvest.
 
-Below are some example ERDDAP native WAFs:
+Below are some example ERDDAP native WAFs harvested by the Catalog:
 
 - Glider DAC: [https://data.ioos.us/gliders/erddap/metadata/iso19115/xml/](https://data.ioos.us/gliders/erddap/metadata/iso19115/xml/)
 - CO-OPS: [http://opendap.co-ops.nos.noaa.gov/erddap/metadata/iso19115/xml/](http://opendap.co-ops.nos.noaa.gov/erddap/metadata/iso19115/xml/)
 
 
 ### Glider DAC ###
+If for some reason you prefer to not harvest from an ERDDAP WAF directly, the contents can always be
+copied to a standard WAF via script.
+
 The IOOS Glider DAC uses a simple Python script to scrape their ERDDAP server and output a metadata
 WAF.  The script linked below includes code to query both THREDDS and ERDDAP servers, with a single
 resulting WAF.  The ERDDAP approach could be applied for other use cases independent of the THREDDS
