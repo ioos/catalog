@@ -26,12 +26,18 @@ for more info.
 gem install bundler
 ```
 
-- Checkout the GitHub repo to get the code:
+- Clone the GitHub repo to get the code:
 
 ```
 cd /my/sourcecode/dir
 git clone https://github.com/ioos/catalog.git
+```
+
+- Switch to the `gh-pages` branch inside the project
+
+```
 cd catalog
+git checkout gh-pages
 ```
 
 - Install dependencies via Bundler:
