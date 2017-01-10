@@ -5,5 +5,7 @@ excerpt: "System Monitor Overview"
 sitemap: false
 permalink: /pages/monitor/
 ---
-## System Monitor Overview ##
-Coming soon...
+## Service Monitor Overview ##
+
+The IOOS Service Monitor harvests from the CKAN catalog instance and determines
+whether the datasets referenced by the catalog are online.u

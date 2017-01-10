@@ -1,8 +1,10 @@
 ---
-title: "System Monitor: Services"
+title: "Service Monitor: Services"
 layout: single
-excerpt: "System Monitor: Services"
+excerpt: "Service Monitor: Services"
 sitemap: false
 permalink: /pages/monitor/services/
 ---
-## System Monitor: Services ##
+## Service Monitor: Services ##
+
+
