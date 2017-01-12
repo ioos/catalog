@@ -17,6 +17,8 @@ that accurately and completely describe their datasets and services, according t
 ## System Diagram ##
 <img src="{{ site.url }}{{ site.baseurl }}/images/Catalog-DMAC-Arch.png" style="padding: 15px; border: 2px solid #e5e5e5" alt="IOOS Catalog system diagram" title="IOOS Catalog system diagram"/>
 <p style="text-align: center">  Figure 1. IOOS Catalog High Level Architecture </p>
+![Figure 2](/catalog/images/ioos_overall_arch.png "Component Level Architecture") 
+<p style="text-align: center">  Figure 2. IOOS Catalog Component Level Architecture </p>
 
 ## Catalog Components ##
 The Catalog includes three major components:
