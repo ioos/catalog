@@ -40,8 +40,8 @@ of the key information CKAN needs is:
 - Lineage
 
 Each dataset that CKAN copies is stored in two places. The main storage is a
-[relational database](http://www.postgis.net/) and the other is a 
-[search engine](https://lucene.apache.org/solr/). Because most of these
+[relational database](http://www.postgresql.org/) and the other is a 
+[full-text search engine](https://lucene.apache.org/solr/). Because most of these
 datasets have a coverage in space (for example, latitude and longitude), the
 database and the search engine have the ability to index and find datasets
 based on their location in space.

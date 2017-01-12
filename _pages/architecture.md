@@ -17,6 +17,8 @@ that accurately and completely describe their datasets and services, according t
 ## System Diagram ##
 <img src="{{ site.url }}{{ site.baseurl }}/images/Catalog-DMAC-Arch.png" style="padding: 15px; border: 2px solid #e5e5e5" alt="IOOS Catalog system diagram" title="IOOS Catalog system diagram"/>
 <p style="text-align: center">  Figure 1. IOOS Catalog High Level Architecture </p>
+![Figure 2](/catalog/images/ioos_overall_arch.png "Component Level Architecture") 
+<p style="text-align: center">  Figure 2. IOOS Catalog Component Level Architecture </p>
 
 ## Catalog Components ##
 The Catalog includes three major components:
@@ -36,7 +38,7 @@ CKAN also contains an embedded OGC Catalog Service-Web (CS-W) - provided by [pyc
 
 More information on the [Data Catalog]({{ site.url }}{{ site.baseurl }}/pages/catalog/).
 
-The Data Catalog is available at this URL: [https://dev-catalog.ioos.us](https://dev-catalog.ioos.us).
+The Data Catalog is available at this URL: [https://catalog.ioos.us](https://catalog.ioos.us).
 
 ### Service Monitor ###
 The Service Monitor reads the Data Catalog inventory and performs uptime monitoring and verification for the data access services included.  The Service Monitor provides additional
