@@ -17,6 +17,22 @@ repository               : "ioos/catalog"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
+#Setup/config for 'ioos_jekyll_theme' git submodule:
+source                   : .
+destination              : _site
+plugins_dir              : ioos_jekyll_theme/_plugins
+layouts_dir              : ioos_jekyll_theme/_layouts
+data_dir                 : _data
+includes_dir             : ioos_jekyll_theme/_includes
+
+# Sass/SCSS
+sass:
+  sass_dir               : ioos_jekyll_theme/_sass
+  style                  : compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -199,12 +215,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
