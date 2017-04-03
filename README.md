@@ -21,4 +21,4 @@ Or, file issues in the IOOS Catalog sub-projects on GitHub:
 - IOOS System Monitor: [https://github.com/ioos/service-monitor](https://github.com/ioos/service-monitor)
 
 For info on how to run the Jekyll engine (used internally by GitHub Pages for
-  the https://ioos.github.io/catalog/ site rendering), see [these docs](https://github.com/ioos/catalog/blob/gh-pages/jekyll_setup.md)
+  the https://ioos.github.io/catalog/ site rendering), see the [Jekyll Setup Docs](https://ioos.github.io/catalog/pages/howto/jekyll/).
