@@ -30,3 +30,11 @@ CKAN has several components within the project:
    - [ckan-pycsw](http://docs.ckan.org/projects/ckanext-spatial/en/latest/csw.html):
      CKAN Plugin to synchronize CKAN data with PyCSW
 
+[PyCSW](http://pycsw.org/) is a Python WSGI that implements the 
+[OGC Catalog Service for the Web](http://www.opengeospatial.org/standards/cat) 
+(CSW). PyCSW has it's own PostGIS database that is synchronized with CKAN at
+the bottom of every hour. PyCSW has it's own search index that is built on SQL
+queries to PostGIS.
+
+For code examples for interfacing with PyCSW, please take a look at 
+[Exploring CSW](https://ioos.github.io/notebooks_demos/notebooks/2016-12-19-exploring_csw/).
