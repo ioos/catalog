@@ -3,6 +3,7 @@ This folder contains example scripts that work with the `axiom/thredds_iso_harve
 It's convenient to create a small bash script that takes the example script as argument.
 
 For example:
+```
 do_crawl.sh harvest_necofs.py
 ```
 where `do_crawl.sh` is:
