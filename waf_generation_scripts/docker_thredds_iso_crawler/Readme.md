@@ -1,8 +1,8 @@
-This folder contains example scripts that work with the `axiom/thredds_iso_harvester` Docker container.
+## Example scripts that work with the THREDDS ISO Harvester Docker container.
 
-It's convenient to create a small bash script that takes the example script as argument.
+The advantage of using this approach is that you don't need python or a special python environment to harvest ISO metadata from THREDDSS catalogs.  You just need Docker installed.  The example scripts in this folder work with the [THREDDS ISO Harvester Docker Container](https://hub.docker.com/r/axiom/thredds_iso_harvester/).   You fire up the container from the command line with a script that contains your settings (which catalogs to point to, which files to skip, etc), the container does the work, and then quits, leaving you with a folder of ISO records.  
 
-For example:
+It's convenient to call the container with a simple script like this:
 ```
 do_crawl.sh harvest_necofs.py
 ```
