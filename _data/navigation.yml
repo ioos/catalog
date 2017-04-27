@@ -28,6 +28,8 @@ site_nav:
         url: /pages/architecture/data_catalog/
       - title: "Service Monitor"
         url: /pages/architecture/monitor/
+      - title: "Jobs Schedule"
+        url: /pages/architecture/schedule/
 
 
   - title: Harvest Registry
@@ -42,6 +44,8 @@ site_nav:
         url: /pages/registry/waf_creation/
       - title: "WAF Scripting THREDDS/ERDDAP"
         url: /pages/registry/waf_scripting/
+      - title: "Registry API"
+        url: /pages/registry/api/
 #      - title: "Harvesting Workflow"
 #        url: /pages/registry/harvesting_workflow/
 #      - title: "ISO 19115 Validation"

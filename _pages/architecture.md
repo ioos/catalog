@@ -27,7 +27,7 @@ sync remote WAF and CS-W (coming soon) sources with consolidated, centralized WA
 
 More information on the [Harvest Registry]({{ site.url }}{{ site.baseurl }}/pages/registry/).
 
-The Harvest Registry is available at this URL: [https://registry.ioos.us](https://registry.ioos.us).
+The Harvest Registry is available at this URL: [https://registry.ioos.us/](https://registry.ioos.us/).
 
 ### Data Catalog ###
 The Data Catalog is the search and discovery interface for the IOOS Catalog.  The Data Catalog is based on the [CKAN](http://ckan.org/) open data portal software.  CKAN harvests metadata
@@ -36,7 +36,7 @@ CKAN also contains an embedded OGC Catalog Service-Web (CS-W) - provided by [pyc
 
 More information on the [Data Catalog]({{ site.url }}{{ site.baseurl }}/pages/catalog/).
 
-The Data Catalog is available at this URL: [https://dev-catalog.ioos.us](https://dev-catalog.ioos.us).
+The Data Catalog is available at this URL: [https://data.ioos.us/](https://data.ioos.us/).
 
 ### Service Monitor ###
 The Service Monitor reads the Data Catalog inventory and performs uptime monitoring and verification for the data access services included.  The Service Monitor provides additional
@@ -44,4 +44,4 @@ verification of service types than the Data Catalog, ensuring that service types
 
 More information on the [Service Monitor]({{ site.url }}{{ site.baseurl }}/pages/monitor/).
 
-The Service Monitor is available at this URL: [https://dev-service-monitor.ioos.us](https://dev-service-monitor.ioos.us).
+The Service Monitor is available at this URL: [https://monitor.ioos.us/](https://monitor.ioos.us/).

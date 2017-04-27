@@ -33,7 +33,7 @@ The basic sections of the IOOS Catalog are:
 
 - [Datasets](#datasets)
 - [Organizations](#organizations)
-- [Groups](#groups)
+- [Feedback](#feedback)
 - [About](#about)
 
 ### Datasets ###
@@ -90,10 +90,14 @@ or format will filter the datasets to only those data containing the tag or
 format. This is useful for finding all of the SOS data published by an
 organization.
 
-### Groups ### 
+### Feedback ###
 
-Groups represent the shared datasets to a particular project or team. The IOOS
-Catalog does not currently have any defined groups.
+Users can select `Feedback` from the navigation bar next to `Organizations` and
+`About`. The feedback page is a simple HTML web form prompting the user for
+his/her name, email and the feedback comments. When a user clicks submit, an
+email is sent to the a list of recipients configured by the CKAN
+administrators. The email contains the user's entered name, email and the
+feedback.
 
 ### About ###
 
