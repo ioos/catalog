@@ -70,10 +70,10 @@ site_nav:
 #      - title: "Web Services/Querying Monitor"
 #        url: /pages/monitor/services/
 
-  - title: Documentation HOWTO
+  - title: Release History
     children:
-      - title: "Setting up Jekyll"
-        url: /pages/howto/jekyll/
+      - title: "Catalog Releases"
+        url: /pages/releases/
 
 # documentation links - placeholder for additional component-specific side nav
 # if needed (from original Jekyll template)

@@ -20,10 +20,10 @@ tables - whether they are developers, journalists, researchers, NGOs, citizens,
 or even your own staff.
 
 *Above section Copyright 2009-2013 [Open Knowledge Foundation](http://okfn.org/).
-Licensed under 
+Licensed under
 [Creative Commons Attribution ShareAlike (Unported) v3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).*
 
-For more information about advanced uses of CKAN, please consult the 
+For more information about advanced uses of CKAN, please consult the
 [CKAN User Guide](http://docs.ckan.org/en/latest/user-guide.html).
 
 
@@ -41,11 +41,11 @@ The basic sections of the IOOS Catalog are:
 The datasets section is the primary interface to finding and discovering data
 in the catalog. The interface includes a basic text search using the search box.
 
-![Search Bar](/catalog/images/ckan-ui/search-bar.png)
+![Search Bar]({{ site.url }}{{ site.baseurl }}/images/ckan-ui/search-bar.png)
 
 The search bar works very intuitively by performing a full text search using
 the contents of the field. The query is sent to the solr search-engine and all
-matching documents are displayed in the order of most relevant. 
+matching documents are displayed in the order of most relevant.
 
 Relevance is determined by how closely the query matches key metadata like the
 *title* and the *abstract*. If relevance being equal, the date-time of the
