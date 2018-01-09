@@ -20,5 +20,13 @@ Or, file issues in the IOOS Catalog sub-projects on GitHub:
 - IOOS Harvest Registry: [https://github.com/ioos/catalog-harvest-registry](https://github.com/ioos/catalog-harvest-registry)
 - IOOS System Monitor: [https://github.com/ioos/service-monitor](https://github.com/ioos/service-monitor)
 
+Additional IOOS Catalog GitHub repositories (find source code here):
+
+- IOOS Catalog Docker Base: [https://github.com/ioos/catalog-docker-base](https://github.com/ioos/catalog-docker-base)
+- IOOS Catalog Docker CKAN: [https://github.com/ioos/catalog-docker-ckan](https://github.com/ioos/catalog-docker-ckan)
+- IOOS Catalog Docker CKAN Harvest: [https://github.com/ioos/catalog-docker-ckan-harvest](https://github.com/ioos/catalog-docker-ckan-harvest)
+- IOOS Catalog Docker pycsw: [https://github.com/ioos/catalog-docker-pycsw](https://github.com/ioos/catalog-docker-pycsw)
+- IOOS Catalog Harvesting : [https://github.com/ioos/catalog-harvesting](https://github.com/ioos/catalog-harvesting)
+
 For info on how to run the Jekyll engine (used internally by GitHub Pages for
-  the https://ioos.github.io/catalog/ site rendering), see the [Jekyll Setup Docs](https://ioos.github.io/catalog/pages/howto/jekyll/).
+  the https://ioos.github.io/catalog/ site rendering), see the [Jekyll Setup Docs](https://ioos.github.io/ioos_jekyll_theme/pages/readme/).
