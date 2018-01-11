@@ -1,1 +1,5 @@
 *.pyc
+ncISO-2.3.4.jar
+ncISO.log
+content/
+waf/
