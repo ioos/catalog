@@ -18,3 +18,4 @@ rm -r waf/ncml
 rm -r waf/score
 mv waf/iso/*.xml waf/
 rm -r waf/iso
+sed -i 's/bight_latest/bight_complete/g' waf/thredds_dodsC_latest_Bight_gcmplt.xml

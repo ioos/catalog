@@ -19,3 +19,5 @@ rm -r /var/lib/docker/volumes/waf_data/_data/Stevens/score
 mv /var/lib/docker/volumes/waf_data/_data/Stevens/iso/*.xml /var/lib/docker/volumes/waf_data/_data/Stevens/
 rm -r /var/lib/docker/volumes/waf_data/_data/Stevens/iso
 rm ncISO.log
+renameFile=/var/lib/docker/volumes/waf_data/_data/Stevens/thredds_dodsC_latest_Bight_gcmplt.xml
+sed -i 's/bight_latest/bight_complete/g' $renameFile
