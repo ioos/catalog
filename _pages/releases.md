@@ -30,7 +30,7 @@ The GitHub release lists for each can be found below:
 The overall Catalog project version history, with major features included in each release.
 
 
-### Version 1.2: January,12 2018 ###
+### Version 1.2: January 12, 2018 ###
 [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.2.0)]
 
 IOOS Catalog Release 1.2 includes a significant look and feel overhaul to make the Catalog resemble IOOS' other web
