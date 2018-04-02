@@ -30,30 +30,23 @@ The GitHub release lists for each can be found below:
 The overall Catalog project version history, with major features included in each release.
 
 
+### Version 1.2: January,12 2018 ###
+[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.2.0)]
 
-### Version 1.0: December 14, 2016 ###
-Initial IOOS Data Catalog release including Harvest Registry integration for dataset publishing.  Initial high-level
-features include:
+IOOS Catalog Release 1.2 includes a significant look and feel overhaul to make the Catalog resemble IOOS' other web
+properties more closely.  It also includes project background and an FAQ section in the [About Page](https://data.ioos.us/about).
+Other enhancements include: dataset-level feedback and the addition of IOOS datasets from [USGS](https://data.ioos.us/organization/usgs)
+and the [US Navy](https://data.ioos.us/organization/us-navy), and others.  Internally, the IOOS Catalog now supports
+CKAN's Google Analytics plugin to extract usage metrics.
 
-CKAN Data Catalog:
-
-- Initial CKAN UI enhancements and customizations for IOOS
-- Proper parsing of service types by CKAN (OPeNDAP, ERDDAP-OPeNDAP, SOS, WMS)
-    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/catalog_dataset_formats.png)
-- Tabbed dataset detail view (Access, Documentation, Description, ...)
-    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/catalog_dataset_details_tabs.png)
-
-Harvest Registry:
-
-- Harvest Registry deployed to manage IOOS data provider WAFs and harvesting
-- Centralized data provider aggregated WAFs managed by Registry: [https://registry.ioos.us/waf/](https://registry.ioos.us/waf/)
-- Automatic CKAN harvest initiation when a Registry reharvest is triggered (instant update ability for IOOS data providers)
-- ISO 19115 validation and reporting for dataset error detection
-    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/registry_iso_validation_errors.png)
+The backend [Harvest Registry](https://registry.ioos.us/) tool added improved CS-W harvesting support to allow IOOS data
+providers to register CS-W servers as data sources, as well as listing individual email address contact points for each
+harvest source.  
 
 
+### Version 1.1: April 28, 2017 ###   
+[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/v0.1.1)]
 
-### Version 1.1: April 28, 2017 ###
 CKAN Data Catalog functionality improvements, including improved CS-W support, user feedback, and an API for programmatic
 control of the dataset harvest process by data providers.  New features:
 
@@ -76,3 +69,24 @@ CKAN Data Catalog for comparison
     [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/registry_about_ckan_dataset_count.png)
 - Registry [API]({{ site.url }}{{ site.baseurl }}/pages/registry/api) released to automate the Catalog harvesting process
 - Better notification of harvest job status for users in the Registry UI
+
+
+### Version 1.0: December 14, 2016 ###
+Initial IOOS Data Catalog release including Harvest Registry integration for dataset publishing.  Initial high-level
+features include:
+
+CKAN Data Catalog:
+
+- Initial CKAN UI enhancements and customizations for IOOS
+- Proper parsing of service types by CKAN (OPeNDAP, ERDDAP-OPeNDAP, SOS, WMS)
+    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/catalog_dataset_formats.png)
+- Tabbed dataset detail view (Access, Documentation, Description, ...)
+    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/catalog_dataset_details_tabs.png)
+
+Harvest Registry:
+
+- Harvest Registry deployed to manage IOOS data provider WAFs and harvesting
+- Centralized data provider aggregated WAFs managed by Registry: [https://registry.ioos.us/waf/](https://registry.ioos.us/waf/)
+- Automatic CKAN harvest initiation when a Registry reharvest is triggered (instant update ability for IOOS data providers)
+- ISO 19115 validation and reporting for dataset error detection
+    [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/registry_iso_validation_errors.png)
