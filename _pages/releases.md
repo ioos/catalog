@@ -34,13 +34,14 @@ The overall Catalog project version history, with major features included in eac
 [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.3.0)]
 
 IOOS Catalog Release 1.3 is primarily an update to CKAN version [2.8](https://ckan.org/2018/05/09/new-ckan-version-2-8-0-released-patch-versions-for-2-5-x-2-6-x-and-2-7-x-available/).  
-Upgrading the IOOS Catalog to the latest release of CKAN will enable development of new functionality for the Catalog
-that is based off of the most recent codebase, reducing the likelihood of needing to fork CKAN to enable new features.
+Migrating IOOS’ Catalog to the newest CKAN version will allow new Catalog functionality,
+such as time window filtering and more granular metadata filtering capabilities to be developed
+by IOOS and more easily contributed back to the core CKAN code base.  This reduces the risk of
+one-off feature development and should lessen future maintenance burden for IOOS going forward.
 
 Other improvements bundled with this upgrade include:
 
-- Resolution of issues with NDBC's SOS datasets, with implementation of ioos/sensorml2iso release  
-[1.0.5](https://github.com/ioos/sensorml2iso/releases/tag/1.0.5) for SOS harvesting
+- Resolution of issues with NDBC's SOS datasets, with implementation of ioos/sensorml2iso release [1.0.5](https://github.com/ioos/sensorml2iso/releases/tag/1.0.5) for SOS harvesting
 - All ERDDAP URLs used within IOOS are properly harvested by CKAN/pycsw
 - pycsw database synchronization improvements within CKAN
 
@@ -53,6 +54,7 @@ The associated Harvest Registry release [1.3.0](https://github.com/ioos/catalog-
 
 - Additional required background information users must provide in order to request a Registry account
 - Functionality improvements related to ERDDAP WAF harvesting and upstream CKAN harvesting controls
+- Admin-level accounts automatically included in distribution emails for account registrations
 
 
 ### Version 1.2: January 12, 2018 ###
