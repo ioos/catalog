@@ -30,6 +30,47 @@ The GitHub release lists for each can be found below:
 The overall Catalog project version history, with major features included in each release.
 
 
+### Version 1.4: April 11, 2019 ###
+[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.4.0)]
+
+**IOOS Catalog Release 1.4: Search and Attribution Enhancements**
+
+This release includes significant updates for search a filtering of datasets in the IOOS Catalog.  Below is a highlight list
+of enhancements bundled in this release:
+
+- Date/Time-based dataset search and filtering
+- Integration with Google Dataset Search via Schema.org JSON-LD dataset metadata - via [CKAN DCAT extension](https://github.com/ckan/ckanext-dcat)
+- Faceted filtering of IOOS 'Data Providers' as listed in ISO 19115 metadata
+- Improved display of Global Change Master Directory (GCMD) keywords
+- Upstream harvest of IOOS Catalog by [NOAA Catalog](https://data.noaa.gov/dataset) and [Data.gov](https://data.gov)
+- Update to CKAN 2.8.2
+
+
+**Details:**
+
+Date/Time search: A major limitation of the standard CKAN software the IOOS Catalog uses is that there is no
+fully-functional date/time dataset filtering capability.  Because IOOS' data is so time-specific, as part of this release
+we developed custom code in the [ioos/catalog-ckan](https://github.com/ioos/catalog-ckan) repository that enabled a new
+control in CKAN's [Datasets](https://data.ioos.us/datasets) view allowing users to enter specific ISO-8601
+date/time strings or select from a calendar widget to filter by dataset start/end time, start time only, end time only, etc.
+
+Google Dataset Search: a long-requested feature implemented in this release.  Via Schema.org/JSON-LD tagging of IOOS metadata -
+enabled by the [ckanext-dcat](https://github.com/ckan/ckanext-dcat) extension - the full IOOS Catalog inventory is now
+crawled, indexed, and searchable in Google Dataset Search.  Search for IOOS metadata in [Google Dataset Search](https://toolbox.google.com/datasetsearch/search?query=site%3Adata.ioos.us).
+
+Data Provider filtering: IOOS' Regional Associations source data from a wide variety of partners/data providers.  This
+information, when properly cited in dataset source XML metadata, can now be filtered in the IOOS Catalog via a new
+'Data Provider' faceted filter control in the [Datasets](https://data.ioos.us/datasets) view.
+
+GCMD Keywording: The IOOS Catalog now parses hierarchical GCMD keywords to allow display of only the actual term itself,
+rather than the entire term hierarchy (as typically encoded in ISO XML metadata).  This aligns better with CF Standard Name
+vocabularies, which are found in some IOOS datasets.  For example:
+
+* `Oceans > Ocean Temperature > Water Temperature` becomes `Water Temperature` and
+* `Oceans > Ocean Optics > Turbidity` becomes `Turbidity`
+
+
+
 ### Version 1.3: September 27, 2018 ###
 [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.3.0)]
 
