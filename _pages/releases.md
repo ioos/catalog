@@ -51,7 +51,7 @@ of enhancements bundled in this release:
 Date/Time search: A major limitation of the standard CKAN software the IOOS Catalog uses is that there is no
 fully-functional date/time dataset filtering capability.  Because IOOS' data is so time-specific, as part of this release
 we developed custom code in the [ioos/catalog-ckan](https://github.com/ioos/catalog-ckan) repository that enabled a new
-control in CKAN's [Datasets](https://data.ioos.us/datasets) view allowing users to enter specific ISO-8601
+control in CKAN's [Datasets](https://data.ioos.us/dataset) view allowing users to enter specific ISO-8601
 date/time strings or select from a calendar widget to filter by dataset start/end time, start time only, end time only, etc.
 
 Google Dataset Search: a long-requested feature implemented in this release.  Via Schema.org/JSON-LD tagging of IOOS metadata -
@@ -60,7 +60,7 @@ crawled, indexed, and searchable in Google Dataset Search.  Search for IOOS meta
 
 Data Provider filtering: IOOS' Regional Associations source data from a wide variety of partners/data providers.  This
 information, when properly cited in dataset source XML metadata, can now be filtered in the IOOS Catalog via a new
-'Data Provider' faceted filter control in the [Datasets](https://data.ioos.us/datasets) view.
+'Data Provider' faceted filter control in the [Datasets](https://data.ioos.us/dataset) view.
 
 GCMD Keywording: The IOOS Catalog now parses hierarchical GCMD keywords to allow display of only the actual term itself,
 rather than the entire term hierarchy (as typically encoded in ISO XML metadata).  This aligns better with CF Standard Name
