@@ -72,8 +72,8 @@ sites is accomplished via the Catalog's [CS-W](https://data.ioos.us/csw) service
 rather than the entire term hierarchy (as typically encoded in ISO XML metadata).  This aligns better with single-term
 CF Standard Name vocabularies, which are also found in some IOOS dataset metadata keywording.  For example:
 
-* `Oceans > Ocean Temperature > Water Temperature` becomes `Water Temperature` and
-* `Oceans > Ocean Optics > Turbidity` becomes `Turbidity`
+* `Oceans > Ocean Temperature > Water Temperature` becomes `Oceans`, `Ocean Temperature`, `Water Temperature` and
+* `Oceans > Ocean Optics > Turbidity` becomes `Oceans`, `Ocean Optics`, `Turbidity`
 
 
 ### Version 1.3: September 27, 2018 ###
