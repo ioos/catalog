@@ -9,12 +9,6 @@ main:
   - title: "Data Catalog (CKAN)"
     url: /pages/catalog/
 
-  - title: "System Monitor"
-    url: /pages/monitor/
-
-
-
-
 
 # site_nav links
 site_nav:
@@ -26,8 +20,6 @@ site_nav:
         url: /pages/architecture/registry/
       - title: "Data Catalog"
         url: /pages/architecture/data_catalog/
-      - title: "Service Monitor"
-        url: /pages/architecture/monitor/
       - title: "Jobs Schedule"
         url: /pages/architecture/schedule/
 
@@ -63,12 +55,6 @@ site_nav:
 #      - title: "CS-W Service (pycsw)"
 #        url: /pages/catalog/pycsw/
 
-  - title: Service Monitor
-    children:
-      - title: "Overview"
-        url: /pages/monitor/
-#      - title: "Web Services/Querying Monitor"
-#        url: /pages/monitor/services/
 
   - title: Release History
     children:
