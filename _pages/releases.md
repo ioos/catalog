@@ -20,14 +20,32 @@ The GitHub release lists for each can be found below:
 
 
 
-## Catalog Release Versions ##
-The overall Catalog project version history, with major features included in each release.
+## Catalog Release History ##
+The overall Catalog project release history, with information on the major features included in each release.
 
 
-### Version 1.5: April 3, 2020 ###
-[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.4.2)]
+### Release 1.6: IOOS Metadata Profile 1.2/IOOS National Products Integration ###
+**March 22, 2021**  [[catalog-ckan release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.6)] [[catalog-docker-base release tag](https://github.com/ioos/catalog-docker-base/releases/tag/1.6)]
 
-**Release 1.5: Schema.org Metadata Enhancements and Improved Filter/Query**
+**IOOS Metadata Profile 1.2**: IOOS Catalog Release 1.6 adds support for [IOOS Metadata Profile 1.2](https://ioos.github.io/ioos-metadata/ioos-metadata-profile-v1-2.html) attribution for datasets harvested from ERDDAP.  This will improve query and filter capabilties for upstream IOOS National Products - such as the [IOOS Sensor Map](https://sensors.ioos.us/) and [IOOS Model Viewer](https://eds.ioos.us/) - allowing identification of Regional Association datasets suitable for ingest and display according to IOOS' dataset guidance.  See an example of CeNCOOS' San Luis Bay - Cal Poly MET station showing attribution from Metadata Profile 1.2 - [[screenshot]]({{ site.url }}{{ site.baseurl }}/images/releases/catalog_ioos_1.2_metadata.png).
+
+<!-- ![IOOS Metadata Profile 1.2 example](/catalog/images/releases/catalog_ioos_1.2_metadata.png){:style="width: 425px; display: block; margin-left: auto; margin-right: auto;"} -->
+
+IOOS Metadata Profile 1.2 attributes can be used as filter queries using special search syntax of Solr, the CKAN query engine.  The following is an example query to select datasets that include `gts_ingest=true` and exclude `ioos_ingest=false` attributes, which might be useful for identifying ERDDAP datasets suitable for harvest by IOOS National Products or to publish to the WMO GTS:
+- CKAN UI: [https://data.ioos.us/dataset?q=gts_ingest:true+-ioos_ingest:false](https://data.ioos.us/dataset?q=gts_ingest%3Atrue+-ioos_ingest%3Afalse)
+- CKAN API: [https://data.ioos.us/api/3/action/package_search?fq=gts_ingest:true -ioos_ingest:false&start=0](https://data.ioos.us/api/3/action/package_search?fq=gts_ingest:true%20-ioos_ingest:false&start=0) 
+
+**CKAN Query Enhancements**: IOOS Catalog at Release 1.6 now provides the capability to: 
+
+- filter for datasets that include [ERDDAP 'griddap' services](https://data.ioos.us/dataset?res_format=ERDDAP-GridDAP) (in addition to ERDDAP 'tabledap')
+- filter by [depth in meters](https://data.ioos.us/dataset?q=&sort=score+desc%2C+metadata_modified+desc&ext_timerange_start=&ext_timerange_end=&ext_min_depth=50&ext_max_depth=100) for datasets that include depth metadata
+
+**IOOS Centralized WAF**: Improvements were made to the IOOS centralized WAF [https://data.ioos.us/waf](https://data.ioos.us/waf) and CS-W service [https://data.ioos.us/csw](https://data.ioos.us/csw) in Release 1.6 so both resources properly delete records that data providers have removed from the Catalog.  Both now mirror Catalog content exactly, which makes them suitable for harvest by external catalog services such as [NOAA's OneStop](https://data.noaa.gov/onestop/) and [Data.gov](https://data.gov/).  The centralized IOOS WAF was created in Release 1.5 to allow OneStop to harvest IOOS' metadata as part of the NOAA transition to OneStop as the primary NOAA metadata catalog.
+
+This release also includes minor styling and UI improvements to improve the look and feel and consistency of IOOS' overall [ioos.us](https://ioos.us) websites.
+
+### Release 1.5: Schema.org Metadata Enhancements and Improved Filter/Query ###
+**April 3, 2020**  [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.4.2)]
 
 Improvements to the IOOS Catalog for Release 1.5 center around findability of IOOS’ datasets (i.e. search and discovery) as described in the [FAIR data management principles](https://doi.org/10.1038/sdata.2016.18).  
 
@@ -63,10 +81,8 @@ NOAA OneStop, NOAA's new flagship open data portal, now routinely ingests IOOS d
 Harvesting job management was improved, additional service security and monitoring was added, and the overall Catalog server architecture was made more robust as part of this release to better support its growing user base.
 
 
-### Version 1.4: April 11, 2019 ###
-[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.4.0)]
-
-**Release 1.4: Search and Attribution Enhancements**
+### Release 1.4: Search and Attribution Enhancements ###
+**April 11, 2019** [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.4.0)]
 
 This release includes significant updates for search and filtering of datasets in the IOOS Catalog, and new connections to external data catalogs.  Below is a highlight list of enhancements bundled in this release:
 
@@ -93,8 +109,8 @@ This release includes significant updates for search and filtering of datasets i
 * `Oceans > Ocean Optics > Turbidity` becomes `Oceans`, `Ocean Optics`, `Turbidity`
 
 
-### Version 1.3: September 27, 2018 ###
-[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.3.0)]
+### Release 1.3: CKAN 2.8 and ERDDAP Harvest Support ###
+**September 27, 2018** [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.3.0)]
 
 IOOS Catalog Release 1.3 is primarily an update to CKAN version [2.8](https://ckan.org/2018/05/09/new-ckan-version-2-8-0-released-patch-versions-for-2-5-x-2-6-x-and-2-7-x-available/).  Migrating IOOS’ Catalog to the newest CKAN version will allow new Catalog functionality, such as time window filtering and more granular metadata filtering capabilities to be developed by IOOS and more easily contributed back to the core CKAN code base.  This reduces the risk of one-off feature development and should lessen future maintenance burden for IOOS going forward.
 
@@ -113,16 +129,16 @@ The associated Harvest Registry release [1.3.0](https://github.com/ioos/catalog-
 - Admin-level accounts automatically included in distribution emails for account registrations
 
 
-### Version 1.2: January 12, 2018 ###
-[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.2.0)]
+### Release 1.2: IOOS.us Styling and CS-W Harvest Support ###
+**January 12, 2018** [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/1.2.0)]
 
 IOOS Catalog Release 1.2 includes a significant look and feel overhaul to make the Catalog resemble IOOS' other web properties more closely.  It also includes project background and an FAQ section in the [About Page](https://data.ioos.us/about). Other enhancements include: dataset-level feedback and the addition of IOOS datasets from [USGS](https://data.ioos.us/organization/usgs) and the [US Navy](https://data.ioos.us/organization/us-navy), and others.  Internally, the IOOS Catalog now supports CKAN's Google Analytics plugin to extract usage metrics.
 
 The backend [Harvest Registry](https://registry.ioos.us/) tool added improved CS-W harvesting support to allow IOOS data providers to register CS-W servers as data sources, as well as listing individual email address contact points for each harvest source.  
 
 
-### Version 1.1: April 28, 2017 ###   
-[[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/v0.1.1)]
+### Release 1.1 Harvest Registry/CKAN Integration & Data Provider Attribution ###   
+**April 28, 2017** [[GitHub release tag](https://github.com/ioos/catalog-ckan/releases/tag/v0.1.1)]
 
 CKAN Data Catalog functionality improvements, including improved CS-W support, user feedback, and an API for programmatic control of the dataset harvest process by data providers.  New features:
 
@@ -141,7 +157,9 @@ Harvest Registry:
 - Better notification of harvest job status for users in the Registry UI
 
 
-### Version 1.0: December 14, 2016 ###
+### Release 1.0: Initial IOOS Catalog Release ###
+**December 14, 2016**
+
 Initial IOOS Data Catalog release including Harvest Registry integration for dataset publishing.  Initial high-level features include:
 
 CKAN Data Catalog:
